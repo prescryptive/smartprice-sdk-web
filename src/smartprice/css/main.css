@@ -1,0 +1,62 @@
+/* Copyright 2021 Prescryptive Health Inc */
+
+.smartprice-button {
+  background-image: url(./logo-bg-purple.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  height: 51px;
+  width: 234px;
+  background-color: #6240a3;
+  border-radius: 73px;
+}
+
+.dark {
+  background-image: url(./logo-bg-dark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  height: 51px;
+  width: 234px;
+  background-color: #ffffff;
+  border-radius: 73px;
+}
+
+.blue {
+  background-image: url(./logo-bg-blue.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  height: 51px;
+  width: 234px;
+  background-color: #00a3d9;
+  border-radius: 73px;
+}
+
+/* Overrides for iframe-lightbox default style */
+.iframe-lightbox .content-holder {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+}
+
+.iframe-lightbox .content-holder .content {
+  padding-bottom: 55vh;
+}
+
+.iframe-lightbox iframe {
+  background-color: white;
+}
+
+@media only screen and (max-width: 539px) {
+  .iframe-lightbox .content-holder {
+    width: 85%;
+  }
+  .iframe-lightbox .content-holder .content {
+    padding-bottom: 80vh;
+  }
+}
